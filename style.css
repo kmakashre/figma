@@ -1,0 +1,459 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f2f2f2;
+}
+
+/* sidebar */
+.sidenav {
+  height: 100%;
+  width: 312px;
+  position: fixed;
+  z-index: 1;
+  top: 47px;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+.sidesct{
+  color: #ffffff;
+  margin: 41px 0px 0px 127px;
+
+}
+.sidesct option i{
+  color: #f1f1f1;
+}
+.sidenav a {
+  padding: 9px 0px 5px 7px;
+  text-decoration: none;
+  font-size: 20px;
+  color: #ffffff;
+  display: block;
+  margin: 1px 0px 0px 79px;
+}
+.sidesct{
+  width: 43%;
+  background-color: #000000;
+  padding: 6px;
+  border: none;
+  box-sizing: border-box;
+  margin: 23px 0px 0px 2px;
+  resize: vertical;
+}
+.sidenav i {
+  margin: 9px 0 8px 7px;
+}
+.Nitem {
+  color: rgb(0, 0, 0);
+  background-color: #ffffff;
+  margin: 2px 76px 10px 41px;
+  padding: 5px 0px 5px 18px;
+  border-radius: 8%;
+  font-size: 19px;
+}
+.sidenav label i{
+color: #ffffff;
+}
+.sidenav label{
+  color: #f8f8f8;
+  margin: 2px 76px 10px 41px;
+  padding: 5px 0px 5px 18px;
+}
+@media screen and (max-height: 450px) {
+  .sidenav {
+    padding-top: 15px;
+  }
+
+  .sidenav a {
+    font-size: 18px;
+  }
+}
+
+/* first navbar */
+.emimg {
+  border-radius: 4px;
+  border: 1px solid rgb(218, 217, 217);
+  margin: 5px 8px 9px 4px;
+}
+.emimage img {
+  max-width: 51px;
+  margin: 7px 0px 6px 0px;
+  border-radius: 50%;
+}
+.emimage a {
+  text-decoration: none;
+  background-color: #fafafa;
+  padding: 0px 17px 0px 9px;
+  color: #000000;
+  border-radius: 38%;
+  display: block;
+}
+.emimage {
+  flex-basis: 40%;
+  margin: 0px 54px 0px 0px;
+}
+/* Total sale , Expenses , visitors, orders */
+.Ttl {
+  border-radius: 5px;
+  margin: 1% 2% 0 26%;
+}
+.Ts::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+.ts,
+.tf,
+.tt,
+.tc {
+  background-color: #f9f9f9;
+  border-radius: 5px;
+  margin: 7px 5px 0px 43px;
+  padding: 4px;
+}
+h2,
+h6 {
+  font-weight: 400;
+  margin: 0 0 0 79px;
+}
+/* Total sevo image */
+.image {
+  flex-basis: 40%
+}
+.sevo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  float: left;
+  width: 25%;
+  padding: 4px 0px;
+}
+.sevo img  {
+  max-width: 30%;
+  margin: 7px 43px -68px 10px;
+}
+/* navbar for add new post  */
+.addnewpost {
+  border-radius: 5px;
+  background-color: #f9f9f9;
+  padding: 10px;
+  margin: 1% 2% 0 26%;
+}
+.topnav {
+  overflow: hidden;
+}
+.topnav a {
+  float: left;
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 2px 2px;
+  text-decoration: none;
+  font-size: 15px;
+}
+.fa {
+  margin-left: 60px;
+}
+.srch {
+  border-radius: 4px;
+  border: 1px solid rgb(218, 217, 217);
+}
+.fp {
+  border-radius: 5px;
+  background-color: #f9f9f9;
+  padding: 20px;
+  margin: 1% 2% 0 26%;
+}
+/* alert */
+.alt {
+  color: #ba4040;
+  background-color: #e8d2d2;
+  border-radius: 4px;
+  border: 2px solid rgb(202, 143, 143);
+  margin: 2% 0 0 0;
+}
+.alt p {
+  margin: 0 0 0 -52px;
+}
+/* Table */
+.tble {
+  border-radius: 4px;
+  background-color: #fff;
+  margin: 2% 0 0 0;
+}
+.Tdbtn {
+  background-color: light-green;
+  padding: 0px 5px 0px 55px;
+  font-size: 16px;
+}
+.tble i {
+  margin: 0px 2px 0px -56px;
+}
+.edit {
+  background-color: #1f0edc;
+  border: #1f0edc;
+  border-radius: 5px;
+  color: #ccc;
+  font-size: 12px;
+  margin: 0px 0px 0px 20px;
+}
+.delet {
+  border: #f5a104;
+  font-size: 12px;
+  background-color: #f69002e0;
+  color: rgb(255, 255, 255);
+  border-radius: 5px;
+  margin: 0px 0px 0px -19px;
+}
+
+/* pagintion */
+.pagintion {
+  margin: 9px 36px 9px 0px;
+}
+
+/* button */
+.bbtn {
+  background-color: #04AA6D;
+  color: white;
+  padding: 5px 5px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+
+button:hover {
+  opacity: 1;
+}
+
+/* Add padding to container elements */
+.container {
+  padding: 10px;
+}
+
+/* Clear floats */
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+/* Change styles for cancel button and signup button on extra small screens */
+@media screen and (max-width: 300px) {
+
+  .cancelbtn,
+  .signupbtn {
+    width: 50%;
+  }
+}
+
+span.psw {
+  float: right;
+  padding-top: 16px;
+}
+
+/* Change styles for span and cancel button on extra small screens */
+@media screen and (max-width: 300px) {
+  span.psw {
+    display: block;
+    float: none;
+  }
+
+}
+
+/* button contry */
+
+.Eimage img {
+  max-width: 27px;
+  margin: -69px 0px 15px 10px;
+}
+
+.Eimage {
+  flex-basis: 40%;
+  margin: 0px 54px 0px 0px;
+}
+
+.Ebtn {
+  border-radius: 4px;
+  border: 1px solid rgb(218, 217, 217);
+  margin: 5px 8px 9px 4px;
+}
+
+.Timage img {
+  max-width: 27px;
+  margin: -69px 0px 15px 10px;
+}
+
+.Timage {
+  flex-basis: 40%;
+  margin: 0px 54px 0px 0px;
+}
+
+.Tbtn {
+  border-radius: 4px;
+  border: 1px solid rgb(218, 217, 217);
+  margin: 5px 8px 9px 4px;
+}
+
+.clearfix {
+  padding: 20px;
+  border-radius: 5px;
+  margin: 0 84% 0 -50%;
+}
+
+.btnE {
+  background-color: #e6ba81;
+  border: #c8220f solid 1px;
+  border-radius: 5px;
+  cursor: pointer;
+  padding: 7px 8px 5px 34px;
+}
+
+.btnT {
+  /* background-color: #1cf2ce; */
+  border: #000000 solid 1px;
+  border-radius: 5px;
+  padding: 7px 8px 5px 34px;
+  cursor: pointer;
+}
+
+.colu {
+  float: left;
+  width: 30%;
+  padding: 2px;
+  margin: 0 2px 0 5px;
+}
+
+.row3 {
+  margin: 1% 5% 0 30%;
+}
+
+.row3::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+/* first form */
+.firstForm {
+  border-radius: 5px;
+  background-color: #f9f9f9;
+  padding: 20px;
+  margin: 1% 2% 0 26%;
+}
+
+.col {
+  float: left;
+  width: 33%;
+  padding: 5px;
+}
+
+/* Clearfix (clear floats) */
+.ro::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.firstIpt,
+.slt1,
+.texta1 {
+  width: 100%;
+  padding: 6px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin: 3px 0 16px 0;
+  resize: vertical;
+}
+
+
+
+/* Second form */
+.conte {
+  border-radius: 5px;
+  background-color: #f9f9f9;
+  padding: 20px;
+  margin: 4% -46% 1% 54%;
+}
+
+.scdIpt,
+.slt2,
+.texta2 {
+  width: 100%;
+  padding: 6px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 3px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+.column2 {
+  float: left;
+  width: 50%;
+  padding: 5px;
+}
+
+.row2::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.colum {
+  float: left;
+  width: 50%;
+  padding: 5px;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+
+/* Third form */
+.cont {
+  border-radius: 5px;
+  background-color: #f9f9f9;
+  padding: 20px;
+  margin: 4% 4% 4% 50%;
+}
+
+.TrdIpt,
+.slt3,
+.texta3 {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+.btnsub {
+  background-color: #04AA6D;
+  color: white;
+  padding: 10px 80px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+
+.btnsub:hover {
+  background-color: #7cc727;
+}
